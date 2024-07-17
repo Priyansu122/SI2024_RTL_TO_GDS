@@ -100,7 +100,7 @@ gtkwave test.vcd
 - Technology library is basically the resources provided by the fabrication house for the designers.
 - Synthesis of a design consist of several commands that is there in synthesis.tcl
     
-- Launch the yosys tool  --> ```yosys``
+- Launch the yosys tool  --> ```yosys```
 - You can individually run the commands listed above. I am using a tcl file.</br>
 ```bash
  yosys> script synthesis.tcl
@@ -123,24 +123,29 @@ gtkwave test.vcd
 
 - You can use this to findout setup slack and hold slack if both the slacks comes out to be positive in the report then the STA test is passed.
 - You need the following files for the sta analysis
-       - synthesized nestlist -> synth.v
-       - contrain file -> top.sdc
+  
+   - synthesized nestlist -> synth.v
+   - constrain file -> top.sdc
 - In constrain file you can metion the design constrain like clock speed, input delay, output delay etc.
-- You can creat a tcl script and use that to run set of commands the commands are given as follows. I have named that script as sta.tcl.
+- You can creat a tcl script and use that to run set of commands the commands for the static time analysis. I have named that script as sta.tcl.
   
 - Lunch the sta tool --> ```sta```
 - Run the script to execute static time analysis --> ```source test.tcl```
 
 ### Physical design using OpenRoad
 - OpenRoad consist of set of scripts integrated together to execute the physical design which has multiple steps like
-       - Floorplan
-       - Power distribution network
-       - global placement
-       - detailed placement
-       - clock tree synthesis
-       - Routing
+  
+  - Floorplan
+  - Power distribution network
+  - global placement
+  - detailed placement
+  - clock tree synthesis
+  - Routing
+  
 - You can invoke the tool and run the script using command ```openroad -gui physicalDesign.tcl```
 - Here physicalDesign.tcl is the script that is used for physical design.
+- In the physicalDesign.tcl there are some subscripts included one of them is flow.tcl but i have also divided the script into various subscripts for floorplanning then power distribution etc.
+- You can comment flow.tcl and uncomment those files one by one to visualize each steps as mentioned in the first point.
 - Now you can see the layout file in the user interface of OpenRoad.
 
 ## RESULTS_OF_ASIC_FLOW
