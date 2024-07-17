@@ -143,8 +143,10 @@ gtkwave test.vcd
 - Here physicalDesign.tcl is the script that is used for physical design.
 - Now you can see the layout file in the user interface of OpenRoad.
 
-## RESULTS_OF_ASIC_FLOW : EXAMPLE --> COUNTER
-
+## RESULTS_OF_ASIC_FLOW
+- This is the Layout file of the counter.
+- Fundamentally this will be sent to fabrication house and the chip will comw back.
+- With this ASIC flow is completed. 
 ![image](https://github.com/user-attachments/assets/181d27f4-3244-4b1a-9c5c-b01d716410d5)
 
   
