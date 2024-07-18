@@ -47,6 +47,26 @@ Step3 : Check if installed or not by invoking the tool using ```iverilog```
  sudo apt install gtkwave
 ```
 
+### Yosys  
+- Install the prerequisites
+```bash
+ sudo apt−get install build−essential clang bison flex \
+ l i breadline −dev gawk tcl−dev libffi −dev git \
+ graphviz xdot pkg−config python3 libboost−system−dev \
+ l ibboost−python−dev libboost−filesystem−dev zlib1g−dev
+```
+- Then follow the steps below one by one,
+```bash
+git clone https://github .com/YosysHQ/yosys . git
+ls
+cd yosys
+make
+sudo make install
+```
+- This is the end of installation process.
+- Check the tool is installed or not by invoking it -->  ./yosys
+- If tool lunches the command prompt changes to --> yosys>
+  
 ### OpenRoad
 
 OpenROAD is a comprehensive tool for chip physical design that transforms a synthesized Verilog netlist into a routed layout.
