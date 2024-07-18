@@ -64,8 +64,8 @@ make
 sudo make install
 ```
 - This is the end of installation process.
-- Check the tool is installed or not by invoking it -->  ./yosys
-- If tool lunches the command prompt changes to --> yosys>
+- Check the tool is installed or not by invoking it -->  ```./yosys```
+- If tool lunches the command prompt changes to --> ```yosys>```
   
 ### OpenRoad
 
