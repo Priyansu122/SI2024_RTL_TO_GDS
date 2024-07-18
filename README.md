@@ -81,10 +81,10 @@ The OpenROAD Project has two releases:
 ## Flow  
 Follow the steps given below for understanding the flow of RTL to GDS, 
 
-- Clone the this page using git clone command.        --> ```git clone https://github.com/Priyansu122/ASIC_FPGA_Design_Flow.git```
-- Enter inside the repository.                        --> ```cd cd ASIC_FPGA_Design_Flow/```
-- Unzip the file then cd into the counter folder.     --> ```unzip ASIC_counter.zip```
-- Enter inside the counter folder                     --> ```cd counter/```
+- Clone the this page using git clone command.      --> ```https://github.com/Priyansu122/SI2024_RTL_TO_GDS.git```
+- Enter inside the repository.                      --> ```cd cd ASIC_FPGA_Design_Flow/```
+- Unzip the file then cd into the counter folder.   --> ```unzip ASIC_counter.zip```
+- Enter inside the counter folder                   --> ```cd counter/```
 - Then next we will be starting with the flow
 
 ### Functional Verification and Analysis using Gtkwave  
