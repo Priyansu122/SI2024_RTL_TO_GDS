@@ -82,7 +82,7 @@ The OpenROAD Project has two releases:
 Follow the steps given below for understanding the flow of RTL to GDS, 
 
 - Clone the this page using git clone command.      --> ```https://github.com/Priyansu122/SI2024_RTL_TO_GDS.git```
-- Enter inside the repository.                      --> ```cd cd ASIC_FPGA_Design_Flow/```
+- Enter inside the repository.                      --> ```cd SI2024_RTL_TO_GDS/```
 - Unzip the file then cd into the counter folder.   --> ```unzip ASIC_counter.zip```
 - Enter inside the counter folder                   --> ```cd counter/```
 - Then next we will be starting with the flow
