@@ -87,7 +87,7 @@ Follow the steps given below for understanding the flow of RTL to GDS,
 - Enter inside the counter folder                   --> ```cd counter/```
 - Then next we will be starting with the flow
 
-### Functional Verification and Analysis using Gtkwave  
+### Functional Verification and Analysis using Iverilog and Gtkwave  
 - Verify the given design and testbench --> ```iverilog -o counter counter.v tb_counter.v```
 - Analysis using Gtkwave --> </br>
 ```bash
