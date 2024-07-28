@@ -133,7 +133,7 @@ gtkwave test.vcd
 - Again you can check the functionality of the synthesized code using iverilog using following command.
   
 ```bash
-iverilog -o counter synth.v tb_counter.v formal_pdk.v
+iverilog -o synth.v tb_counter.v sky130hd/work_around_yosys/formal_pdk.v
 vvp counter
 gtkwave test.vcd
 ```
@@ -151,7 +151,7 @@ gtkwave test.vcd
 - You can creat a tcl script and use that to run set of commands the commands for the static time analysis. I have named that script as sta.tcl.
   
 - Lunch the sta tool --> ```sta```
-- Run the script to execute static time analysis --> ```source test.tcl```
+- Run the script to execute static time analysis --> ```source sta.tcl```
 
 ### Physical design using OpenRoad
 - OpenRoad consist of set of scripts integrated together to execute the physical design which has multiple steps like
