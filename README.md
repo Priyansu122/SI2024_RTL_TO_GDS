@@ -50,14 +50,15 @@ Step3 : Check if installed or not by invoking the tool using ```iverilog```
 ### Yosys  
 - Install the prerequisites
 ```bash
- sudo apt−get install build−essential clang bison flex \
- l i breadline −dev gawk tcl−dev libffi −dev git \
- graphviz xdot pkg−config python3 libboost−system−dev \
- l ibboost−python−dev libboost−filesystem−dev zlib1g−dev
+sudo apt-get install build-essential clang bison flex \
+libreadline-dev gawk tcl-dev libffi-dev git \
+graphviz xdot pkg-config python3 libboost-system-dev \
+libboost-python-dev libboost-filesystem-dev zlib1g-dev
+
 ```
 - Then follow the steps below one by one,
 ```bash
-git clone https://github .com/YosysHQ/yosys . git
+git clone https://github .com/YosysHQ/yosys.git
 ls
 cd yosys
 make
@@ -89,7 +90,7 @@ The OpenROAD Project has two releases:
   sudo ./etc/DependencyInstaller.sh
   mkdir build
   cd build
-  cmake
+  cmake ..
   make
   sudo make install
 ```
